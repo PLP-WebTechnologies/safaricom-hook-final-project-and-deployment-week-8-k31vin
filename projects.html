@@ -1,0 +1,315 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Projects - Kelvin kitonyo</title>
+        <link rel="stylesheet" href="assets/css/styles.css" />
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    </head>
+    <body>
+        <header>
+        <div class="logo">
+            <a href="index.html">KK</a>
+        </div>
+        <nav id="main-nav">
+            <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html" class="active">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button id="mobile-menu-toggle" aria-label="Toggle Menu">
+            <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+        </header>
+
+        <main mt-10>
+        <section class="page-header hero">
+            <div class="container">
+            <h1>My Projects</h1>
+            <p>A collection of my latest work in web development and design.</p>
+            </div>
+        </section>
+
+        <section class="project-filters">
+            <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">
+                All Projects
+                </button>
+                <button class="filter-btn" data-filter="website">Websites</button>
+                <button class="filter-btn" data-filter="app">Web Apps</button>
+                <button class="filter-btn" data-filter="design">UI Design</button>
+            </div>
+            </div>
+        </section>
+
+        <section class="projects-showcase">
+            <div class="container">
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <article class="project-card" id="project1" data-category="website">
+                <div class="project-image">
+                    <img
+                    src="assets/images/ecommerce.png"
+                    alt="E-commerce Website Project"
+                    />
+                </div>
+                <div class="project-content">
+                    <h3>E-commerce Website</h3>
+                    <p>
+                    A fully responsive online store with product filtering and
+                    cart functionality.
+                    </p>
+                    <div class="project-tech">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                    <a href="#" class="btn small-btn" target="_blank"
+                        >Live Demo</a
+                    >
+                    <a
+                        href="#"
+                        class="btn small-btn secondary-btn"
+                        target="_blank"
+                        >Source Code</a
+                    >
+                    </div>
+                </div>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project-card" id="project2" data-category="website">
+                <div class="project-image">
+                    <img
+                    src="assets/images/portfolio.jpg"
+                    alt="Portfolio Template Project"
+                    />
+                </div>
+                <div class="project-content">
+                    <h3>Portfolio Template</h3>
+                    <p>
+                    A customizable portfolio template for creative professionals.
+                    </p>
+                    <div class="project-tech">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                    <a href="#" class="btn small-btn" target="_blank"
+                        >Live Demo</a
+                    >
+                    <a
+                        href="#"
+                        class="btn small-btn secondary-btn"
+                        target="_blank"
+                        >Source Code</a
+                    >
+                    </div>
+                </div>
+                </article>
+
+                <!-- Project 3 -->
+                <article class="project-card" data-category="app">
+                <div class="project-image">
+                    <img src="assets/images/task.jpg" alt="Task Management App" />
+                </div>
+                <div class="project-content">
+                    <h3>Task Management App</h3>
+                    <p>
+                    A JavaScript-based task manager with local storage for
+                    persistent data.
+                    </p>
+                    <div class="project-tech">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                    <a href="#" class="btn small-btn" target="_blank"
+                        >Live Demo</a
+                    >
+                    <a
+                        href="#"
+                        class="btn small-btn secondary-btn"
+                        target="_blank"
+                        >Source Code</a
+                    >
+                    </div>
+                </div>
+                </article>
+
+                <!-- Project 4 -->
+                <article class="project-card" data-category="design">
+                <div class="project-image">
+                    <img src="assets/images/mobile.jpg" alt="Mobile App UI Design" />
+                </div>
+                <div class="project-content">
+                    <h3>Mobile App UI Design</h3>
+                    <p>
+                    A clean, modern UI design for a fitness tracking application.
+                    </p>
+                    <div class="project-tech">
+                    <span>UI Design</span>
+                    <span>Prototyping</span>
+                    <span>User Flow</span>
+                    </div>
+                    <div class="project-links">
+                    <a href="#" class="btn small-btn" target="_blank"
+                        >View Design</a
+                    >
+                    </div>
+                </div>
+                </article>
+
+                <!-- Project 5 -->
+                <article class="project-card" data-category="website">
+                <div class="project-image">
+                    <img src="assets/images/restarant.jpg" alt="Restaurant Website" />
+                </div>
+                <div class="project-content">
+                    <h3>Restaurant Website</h3>
+                    <p>
+                    A responsive website for a local restaurant with online
+                    reservation system.
+                    </p>
+                    <div class="project-tech">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                    <a href="#" class="btn small-btn" target="_blank"
+                        >Live Demo</a
+                    >
+                    <a
+                        href="#"
+                        class="btn small-btn secondary-btn"
+                        target="_blank"
+                        >Source Code</a
+                    >
+                    </div>
+                </div>
+                </article>
+
+                <!-- Project 6 -->
+                <article class="project-card" data-category="app">
+                <div class="project-image">
+                    <img src="assets/images/weather.jpg" alt="Weather Dashboard" />
+                </div>
+                <div class="project-content">
+                    <h3>Weather Dashboard</h3>
+                    <p>
+                    A weather application that fetches data using a third-party
+                    API.
+                    </p>
+                    <div class="project-tech">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>APIs</span>
+                    </div>
+                    <div class="project-links">
+                    <a href="#" class="btn small-btn" target="_blank"
+                        >Live Demo</a
+                    >
+                    <a
+                        href="#"
+                        class="btn small-btn secondary-btn"
+                        target="_blank"
+                        >Source Code</a
+                    >
+                    </div>
+                </div>
+                </article>
+            </div>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <div class="container">
+            <div class="cta-content">
+                <h2>Interested in working together?</h2>
+                <p>I'm always open to discussing new projects and opportunities.</p>
+                <a href="contact.html" class="btn primary-btn">Get In Touch</a>
+            </div>
+            </div>
+        </section>
+        </main>
+
+        <footer>
+        <div class="container">
+            <div class="footer-content">
+            <div class="footer-logo">
+                <a href="index.html">kelvin kitonyo</a>
+                <p>Front-End Developer based in Kenya</p>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h3>Connect</h3>
+                <div class="social-icons">
+                <a
+                    href="https://github.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="GitHub"
+                >
+                    <i class="fab fa-github"></i>
+                </a>
+                <a
+                    href="https://linkedin.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="LinkedIn"
+                >
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a
+                    href="https://twitter.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Twitter"
+                >
+                    <i class="fab fa-twitter"></i>
+                </a>
+                </div>
+            </div>
+            <div class="footer-newsletter">
+                <h3>Stay Updated</h3>
+                <form id="newsletter-form">
+                <input
+                    type="email"
+                    id="newsletter-email"
+                    placeholder="Your email"
+                    required
+                />
+                <button type="submit" class="btn primary-btn">Subscribe</button>
+                <div id="newsletter-message"></div>
+                </form>
+            </div>
+            </div>
+            <div class="footer-bottom">
+            <p>&copy; 2025 Kenya. All rights reserved.</p>
+            </div>
+        </div>
+        </footer>
+
+        <script src="assets/js/scripts.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </body>
+    </html>

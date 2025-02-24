@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelvin Kitonyo - Web Developer</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">KK</a>
+        </div>
+        <nav id="main-nav">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button id="mobile-menu-toggle" aria-label="Toggle Menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Hi, I'm Kelvin Kitonyo</h1>
+                    <h2>Front-End Developer</h2>
+                    <p>I create responsive websites that help businesses achieve their goals.</p>
+                    <div class="cta-buttons">
+                        <a href="projects.html" class="btn primary-btn">View My Work</a>
+                        <a href="contact.html" class="btn secondary-btn">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="assets/images/profile.jpg" alt="Kelvin Kitonyo - Web Developer">
+                </div>
+            </div>
+        </section>
+
+        <section class="skills">
+            <div class="container">
+                <h2 class="section-title">My Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <i class="fab fa-html5"></i>
+                        <h3>HTML5</h3>
+                        <p>Semantic markup for accessible, SEO-friendly websites.</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-css3-alt"></i>
+                        <h3>CSS3</h3>
+                        <p>Responsive layouts, animations and modern design.</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-js"></i>
+                        <h3>JavaScript</h3>
+                        <p>Interactive UI components and dynamic content.</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h3>Responsive Design</h3>
+                        <p>Mobile-first websites that work on all devices.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="featured-work">
+            <div class="container">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="project-grid">
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="assets/images/ecommerce.jpg" alt="E-commerce Website Project">
+                        </div>
+                        <div class="project-content">
+                            <h3>E-commerce Website</h3>
+                            <p>A fully responsive online store with product filtering and cart functionality.</p>
+                            <div class="project-tech">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <a href="projects.html#project1" class="project-link">View Details</a>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="assets/images/portfolio.jpg" alt="Portfolio Project">
+                        </div>
+                        <div class="project-content">
+                            <h3>Portfolio Template</h3>
+                            <p>A customizable portfolio template for creative professionals.</p>
+                            <div class="project-tech">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <a href="projects.html#project2" class="project-link">View Details</a>
+                        </div>
+                    </article>
+                </div>
+                <div class="view-all">
+                    <a href="projects.html" class="btn primary-btn">View All Projects</a>
+                </div>
+            </div>
+        </section>
+        
+        <section class="testimonials">
+            <div class="container">
+                <h2 class="section-title">Client Testimonials</h2>
+                <div class="testimonial-slider" id="testimonial-slider">
+                    <div class="testimonial active">
+                        <p>"Kelvin delivered our website ahead of schedule and exceeded all our expectations. Highly recommended!"</p>
+                        <div class="client-info">
+                            <h4>Kitonyo</h4>
+                            <p>CEO, TechStart</p>
+                        </div>
+                    </div>
+                    <div class="testimonial">
+                        <p>"Working with Kelvin was a pleasure. Our website traffic has increased by 150% since the redesign."</p>
+                        <div class="client-info">
+                            <h4>Rachael</h4>
+                            <p>Marketing Director, GrowthBrand</p>
+                        </div>
+                    </div>
+                    <div class="testimonial">
+                        <p>"The attention to detail and responsive design made all the difference for our mobile users."</p>
+                        <div class="client-info">
+                            <h4>Daniel</h4>
+                            <p>Product Manager, MobileFirst</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-controls">
+                    <button class="prev-btn" id="prev-testimonial" aria-label="Previous testimonial">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <div class="slider-dots">
+                        <span class="dot active" data-index="0"></span>
+                        <span class="dot" data-index="1"></span>
+                        <span class="dot" data-index="2"></span>
+                    </div>
+                    <button class="next-btn" id="next-testimonial" aria-label="Next testimonial">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="index.html">Kelvin K</a>
+                    <p>Front-End Developer based in Nairobi</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Connect</h3>
+                    <div class="social-icons">
+                        <a href="https://github.com/K31vin" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/kelvin kitonyo" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-newsletter">
+                    <h3>Stay Updated</h3>
+                    <form id="newsletter-form">
+                        <input type="email" id="newsletter-email" placeholder="Your email" required>
+                        <button type="submit" class="btn primary-btn">Subscribe</button>
+                        <div id="newsletter-message"></div>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 kelvin. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
